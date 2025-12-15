@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Octalysis Gamification</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="img/logo-web-octalysis.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="img/logo-octalysis.png" alt="Octalysis logo" height="36">
+            </a>
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-nav" class="main-nav" aria-hidden="true">
+                <ul class="nav-center">
+                    <li><a href="mastery-1.html">Author</a></li>
+                    <li><a href="mastery-2.html">Octalysis</a></li>
+                    <li><a href="mastery-3.html">Works</a></li>
+                    <li><a href="mastery-4.html">Quiz</a></li>
+                </ul>
+                
+                    <li><a href="#contact" class="contact-btn">Contact</a></li>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+    <section class="introduction-section">
+        <div class="sub-text">
+            <h1 class="main-heading">Octalysis Framework</h1>
+            <p>The Octalysis Framework is a comprehensive model for understanding human motivation through 8 Core Drives. Developed by Yu-kai Chou, it provides insights into designing engaging experiences that resonate with users on a deeper level.</p>
+            <p class="click-instruction">Click on any slice of the octagon below to explore the Core Drives.</p>
+        </div>
+    </section>
+
+    <section class="core-display-section">
+        <div class="main-container">
+            <!-- Left Column: Octagon and Summary -->
+            <div class="visualization-column">
+                
+                <!-- Dynamic Core Drive Summary -->
+                <div class="core-summary-box">
+                    <p class="core-type">Core 1 / 8</p>
+                    <p class="core-title">Epic Meaning &amp; Calling</p>
+                    
+                    <div class="core-drive-labels">
+                        <p class="label-brain left">Left brain</p>
+                        <p class="label-hat black">Dark hat</p>
+                    </div>
+                </div>
+
+                <!-- Octagon SVG Container -->
+                <div id="oct-container">
+                    <svg viewBox="0 0 200 200" id="oct" aria-label="Octagon visualization of the 8 Core Drives">
+                        <g id="slices"></g>
+                    </svg>
+                </div>
+
+            </div>
+
+            <!-- Right Column: Detailed Content -->
+            <div class="content-column">
+                <div class="core-content">
+                    <!-- Initial Content for Core 1 (Matching JS Output structure) -->
+                    <p class="initial-text">
+                        Motivation from feeling part of something bigger or believing you are chosen 
+                        for a special purpose.
+                    </p>
+
+                    <!-- Core Drive Image -->
+                    <div class="image-placeholder">
+                        <img 
+                            src="img/core-img-1.png" 
+                            alt="Epic Meaning &amp; Calling illustration" 
+                            class="core-drive-image" 
+                        >
+                    </div>
+
+                    <p>
+                        Humans have always searched for purpose—through spirituality, religion,
+                        or existential reflection. We all want to feel meaningful or chosen for something greater.
+                    </p>
+
+                    <p>
+                        In gamification, the simplest way to use this drive is by creating a story or narrative
+                        with a clear goal, helping users feel that their actions matter. Meaning can also come from
+                        highlighting how a user’s journey sets them apart from others—for example, the friendly rivalry
+                        between iPhone and Android users.
+                    </p>
+
+                    <div class="examples-container">
+                        <h3 class="examples-heading">Examples</h3>
+
+                        <div id="examples-list">
+                            <!-- Initial Examples for Core 1 -->
+                            <div class="example-item example-item-initial dark-hat-example">
+                                <strong><a href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer">Duolingo – “Save Your Streak” + global learning mission</a></strong>
+                                <p>Users feel part of a worldwide movement to make education free for everyone.</p>
+                            </div>
+                            <div class="example-item example-item-initial dark-hat-example">
+                                <strong><a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia – Volunteer Contribution</a></strong>
+                                <p>Editors contribute for a sense of purpose, not money—helping build the world’s knowledge base.</p>
+                            </div>
+                            <div class="example-item example-item-initial dark-hat-example">
+                                <strong><a href="https://fold.it/" target="_blank" rel="noopener noreferrer">Foldit (University of Washington)</a></strong>
+                                <p>Players solve protein-folding puzzles that support real scientific research.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer id="contact" class="pn-footer">
+      <div class="pn-footer__content">
+        <!-- Left side content -->
+        <div class="pn-footer__left">
+          <!-- Menu column -->
+          <div class="pn-footer__nav-column">
+            <p class="pn-footer__nav-title">menu</p>
+            <ul class="pn-footer__nav-list">
+              <li><a href="mastery-1.html" class="pn-footer__link">Author</a></li>
+              <li><a href="mastery-2.html" class="pn-footer__link">Octalysis</a></li>
+              <li><a href="mastery-3.html" class="pn-footer__link">Works</a></li>
+            </ul>
+          </div>
+
+          <!-- Support column -->
+          <div class="pn-footer__nav-column">
+            <p class="pn-footer__nav-title">support</p>
+            <ul class="pn-footer__nav-list">
+              <li><a href="about.html" class="pn-footer__link">About this website</a></li>
+              <li><a href="legal.html" class="pn-footer__link">Legal stuff</a></li>
+            </ul>
+          </div>
+
+          <!-- Social links and back to top -->
+          <div class="pn-footer__social-wrapper">
+            <div class="pn-footer__social-links">
+              <a href="https://github.com/Natalialalaa" target="_blank" rel="noopener noreferrer" class="pn-footer__social-link">
+                <img src="img/github-brands-solid-full.svg" alt="GitHub icon" height="32">
+              </a>
+              <a href="https://www.linkedin.com/in/priscillanataliadev/" target="_blank" rel="noopener noreferrer" class="pn-footer__social-link">
+                <img src="img/linkedin-brands-solid-full.svg" alt="LinkedIn icon" height="32">
+              </a>
+            </div>
+            <a href="#top" class="pn-footer__back-to-top">Back to top</a>
+          </div>
+        </div>
+
+      <!-- Right side - Envelope form -->
+      <div class="pn-footer__form-wrapper">
+        <div class="pn-footer__triangle"></div>
+
+        <form
+          class="pn-footer__form"
+          action="https://formspree.io/f/mrbnvkww"
+          method="POST"
+        >
+          <div class="pn-footer__form-group">
+            <label for="fullname" class="pn-footer__label">Full Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              required
+              class="pn-footer__input"
+            >
+          </div>
+
+          <div class="pn-footer__form-group">
+            <label for="email" class="pn-footer__label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="pn-footer__input"
+            >
+          </div>
+
+          <div class="pn-footer__form-group">
+            <label for="subject" class="pn-footer__label">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              class="pn-footer__input"
+            >
+          </div>
+
+          <div class="pn-footer__form-group">
+            <label for="message" class="pn-footer__label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              class="pn-footer__textarea"
+            ></textarea>
+          </div>
+
+          <!-- Optional anti-spam -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <button type="submit" class="pn-footer__submit">Send</button>
+        </form>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="pn-footer__bottom">
+        <p class="pn-footer__copyright">&copy; 2025 Priscilla Natalia. All rights reserved.</p>
+        <img src="img/logo-octalysis.png" alt="Octalysis logo" class="pn-footer__logo">
+      </div>
+    </footer>
+    <script src="octagon.js" defer></script>
+    <script src="nav.js" defer></script>
+</body>
+</html>
